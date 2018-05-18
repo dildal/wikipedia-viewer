@@ -114,3 +114,12 @@ body {
 	color: white;
 }
 
+@media (max-width: 500px){
+	.search-bar > * {
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	.wiki-entry {
+		background-color: rgba(0,0,0,0.7);
+	}
+}
