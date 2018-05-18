@@ -1,0 +1,116 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url(https://source.unsplash.com/yIHrNgkyTGc) center center;
+	background-color: black;
+	background-size: cover;
+}
+
+.flex-container {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.flex-container > * {
+  flex: 1 1 100%;
+}
+
+.flex-container > h1 {
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	letter-spacing: 2px;
+}
+
+.wiki-entry {
+	background-color: rgba(255,255,255,0.4);
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	letter-spacing: 2px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.wiki-content h4 {
+	font-size: 1.3rem;
+}
+
+.wiki-entry a {
+	text-decoration: none;
+	color: white;
+}
+
+.flex-container .search-bar {
+  display: flex;
+  flex: 0 1 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+
+.search-bar > *{
+	line-height: 50px;
+	padding: 10px;
+	font-size: 20px;
+	outline: 0;
+	background-color: rgba(0,0,0,0.1);
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	letter-spacing: 2px;
+}
+.search{
+	flex: 0 1 80%;
+	border-right: none;
+}
+
+.submit {
+	border-left: none;
+	border-bottom: 2px inset white;
+	border-top: 2px inset white;
+}
+
+
+.submit:hover{
+	cursor: pointer;
+}
+
+.wiki-entry {
+
+}
+
+.wiki-content {
+	height: 100%;
+}
+
+/*Change placeholder text*/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: white;
+}
+
