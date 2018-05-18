@@ -92,9 +92,6 @@ body {
 	cursor: pointer;
 }
 
-.wiki-entry {
-
-}
 
 .wiki-content {
 	height: 100%;
@@ -118,5 +115,14 @@ body {
 	.search-bar > *, .wiki-entry {
 		background-color: rgba(0,0,0,0.7);
 	}
-
+	.searcbar .search {
+		border-right: 1px solid #fff;
+	}
+	.searchbar .submit{
+		border-left: none;
+	}
+	.searchbar > * {
+		margin: 0;
+		border-radius: 0px;
+	}
 }
