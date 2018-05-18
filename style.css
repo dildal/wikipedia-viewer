@@ -115,11 +115,8 @@ body {
 }
 
 @media (max-width: 500px){
-	.search-bar > * {
+	.search-bar > *, .wiki-entry {
 		background-color: rgba(0,0,0,0.7);
 	}
 
-	.wiki-entry {
-		background-color: rgba(0,0,0,0.7);
-	}
 }
